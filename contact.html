@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Wildio Adventures</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">🌿 Wildio</a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="adventures.html" class="nav-link">Adventures</a>
+        <a href="guides.html" class="nav-link">Guides</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero hero-sm" style="background-image: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1600&q=80')">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Let's Connect</span>
+      <h1 class="hero-title">Start Your<br><em>Journey</em></h1>
+      <p class="hero-sub">Have questions? Want to plan a trip? We're here for you.</p>
+    </div>
+  </section>
+
+  <!-- SECTION 1: CONTACT FORM + INFO -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <!-- FORM -->
+        <div class="contact-form-wrap">
+          <div class="section-header" style="text-align:left; margin-bottom: 2rem;">
+            <span class="section-tag">Get In Touch</span>
+            <h2>Send Us a Message</h2>
+            <p>We respond within 24 hours.</p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" placeholder="John Wild" required />
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label>Adventure Interest</label>
+              <select>
+                <option value="">Select a type...</option>
+                <option>Hiking / Trekking</option>
+                <option>Camping</option>
+                <option>Road Trip</option>
+                <option>Multi-Day Expedition</option>
+                <option>Custom Adventure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Your Message</label>
+              <textarea rows="5" placeholder="Tell us about your dream adventure..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message 🌿</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            ✅ Message sent! We'll get back to you within 24 hours.
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="contact-info">
+          <div class="section-header" style="text-align:left; margin-bottom: 2rem;">
+            <span class="section-tag">Find Us</span>
+            <h2>Contact Info</h2>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>42 Explorer Lane, Trailhead City, CO 80301, USA</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@wildio.adventures</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (720) 555-WILD</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">🕐</div>
+            <div>
+              <h4>Office Hours</h4>
+              <p>Mon – Fri: 9am – 6pm MST</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn">Instagram</a>
+            <a href="#" class="social-btn">YouTube</a>
+            <a href="#" class="social-btn">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: WHY US -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Wildio</span>
+        <h2>The Wildio Difference</h2>
+        <p>We don't just sell trips — we craft life-changing experiences.</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-icon">🌿</div>
+          <h4>Eco-Conscious</h4>
+          <p>We practice Leave No Trace principles on every single adventure.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">🏅</div>
+          <h4>Expert Guides</h4>
+          <p>All our guides are certified wilderness professionals with 5+ years experience.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">📦</div>
+          <h4>All-Inclusive</h4>
+          <p>Gear, food, permits, and logistics — all handled so you just explore.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-icon">❤️</div>
+          <h4>Small Groups</h4>
+          <p>Max 10 people per trip for a personal, authentic adventure experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: FAQ -->
+  <section class="section">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2>Common Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h4>Do I need prior experience?</h4>
+          <p>Not at all. We have trips graded from beginner to expert. Just bring your spirit of adventure.</p>
+        </div>
+        <div class="faq-item">
+          <h4>What's included in the trip price?</h4>
+          <p>All guides, permits, camping gear, and most meals are included. International flights are separate.</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can I join solo?</h4>
+          <p>Absolutely. Most of our explorers join as solo travelers and leave as lifelong friends.</p>
+        </div>
+        <div class="faq-item">
+          <h4>What's the cancellation policy?</h4>
+          <p>Full refund up to 30 days before departure. 50% refund up to 14 days. No refund within 14 days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" style="background-image: url('https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=1600&q=80')">
+    <div class="cta-overlay"></div>
+    <div class="cta-content">
+      <h2>The Wild Is Calling</h2>
+      <p>Stop dreaming. Start exploring. Your adventure starts now.</p>
+      <a href="adventures.html" class="btn btn-primary">View Adventures</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">🌿 Wildio</span>
+        <p>Explore More, Live Wild.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="adventures.html">Adventures</a>
+        <a href="guides.html">Guides</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 Wildio Adventures. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
